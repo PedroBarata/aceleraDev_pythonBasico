@@ -4,7 +4,7 @@ API Rest feita em Python como estudo do Acelera Dev da Codenation.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar os packages do projeto.
 
 ```bash
 pip install flask
