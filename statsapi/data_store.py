@@ -1,6 +1,5 @@
 from uuid import UUID, uuid4
 
-
 _in_memory_storage = dict()
 
 

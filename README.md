@@ -11,6 +11,7 @@ pip install flask
 pip install jsonify
 pip install loguru
 pip install requests
+pip install pytest
 ```
 
 ## Usage
@@ -37,10 +38,24 @@ $ python client.py --get --uuid <UUID>
 #E operações
 $ python client.py --op <op_name> --uuid <UUID>
 
-
 ```
+
+
+## Tests
+
+```bash
+#Para rodar todos os testes
+$ pytest tests/
+
+$ pytest -v tests/ #Mais verboso
+
+#Para rodar um teste em específico
+$ pytest <nome_do_teste>.py
+```
+
 ## Task list
-* [] Verificar se é uma UUID válida ao realizar o método ```GET``` no ``data_store.py``
+* [ ] Verificar se é uma UUID válida ao realizar o método ```GET``` no ``data_store.py``
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
